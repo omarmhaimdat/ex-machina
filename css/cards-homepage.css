@@ -1,6 +1,6 @@
 /* Common style */
 .grid {
-	margin: 150px 30px 50px 80px;
+	margin: 100px 30px 50px 80px;
 	max-width: 1800px;
 	width: 90%;
 }
@@ -23,7 +23,6 @@
 }
 .grid a:nth-child(4) {
 	/*margin:  0 0px 0;*/
-	padding: 0px;
 }
 
 .grid figure {
@@ -54,7 +53,7 @@
 
 .grid figcaption h2 {
 	margin: 0 0 20px 0;
-	color: #3498db;
+	color: #232138;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-weight: 300;
@@ -126,7 +125,9 @@
 
 /* Individual styles */
 .demo-1 body {
-	background: #3498db;
+	/*background: #3498db;*/
+	background: #232138;
+
 }
 
 .demo-1 .grid figure button,
