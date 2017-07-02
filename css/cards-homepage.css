@@ -393,6 +393,12 @@ a:hover, a:focus {
 	text-decoration: none;
 	color:  inherit;
 }
+.footer-distributed .footer-links a:hover{
+	display:inline-block;
+	line-height: 1.8;
+	color:  rgba(254, 254, 254, 0.7);
+	text-decoration: none;
+}
 
 .footer-distributed .footer-right{
 	float: right;
@@ -406,15 +412,24 @@ a:hover, a:focus {
 	height: 35px;
 	background-color:  #33383b;
 	border-radius: 2px;
-
 	font-size: 20px;
 	color: #ffffff;
 	text-align: center;
 	line-height: 35px;
-
 	margin-left: 3px;
 }
-
+.footer-distributed .footer-right a:hover{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	background-color:  #33383b;
+	border-radius: 2px;
+	font-size: 20px;
+	color: rgba(254, 254, 254, 0.2);
+	text-align: center;
+	line-height: 35px;
+	margin-left: 3px;
+}
 @media (max-width: 600px) {
 
 	.footer-distributed .footer-left,
