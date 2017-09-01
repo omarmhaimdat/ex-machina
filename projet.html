@@ -11,12 +11,40 @@
 		<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="css/cards-homepage.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 		<script src="js/snap.svg-min.js"></script>
 		<!--[if IE]>
   		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
 	</head>
 	<body>
+		<nav class="nav">
+		<div class="burger">
+			<div class="burger__patty"></div>
+		</div>
+
+		<ul class="nav__list">
+			<li class="nav__item">
+				<a href="index.html" class="nav__link c-yellow ">Accueil</a>
+			</li>
+			<li class="nav__item">
+				<a href="about.html" class="nav__link c-yellow">À propos</a>
+			</li>
+			<li class="nav__item">
+				<a href="#" class="nav__link c-yellow ">Objectifs</a>
+			</li>
+			<li class="nav__item">
+				<a href="projet.html" class="nav__link c-yellow ">Projets</a>
+			</li>
+			<li class="nav__item">
+				<a href="membres.html" class="nav__link c-yellow ">Membres</a>
+			</li>
+			<li class="nav__item">
+				<a href="https://omarmhaimdat.typeform.com/to/WumX0N" class="nav__link c-yellow ">Adhérer</a>
+			</li>
+		</ul>
+	</nav>
+
 		<main class="mainprojet">
 	    <header class="headerabout">
 	      <div class="header__inner">
@@ -28,7 +56,7 @@
 
 	    <section class="content">
 	      <article class="content__article">
-	        <h2 style="color: black; font-size: 34px; text-align: center;"> Le forum Q&A. </h2>
+	        <h2 style="color: white; font-size: 34px; text-align: center;"> Le forum Q&A. </h2>
 					<!-- <input type="checkbox" id="bar-2"> -->
 					<div class="flexy-column">
 						<div class="progress-factor flexy-item">
@@ -47,7 +75,7 @@
 					</div>
 	      </article>
 	         <article class="content__article">
-	        <h2 style="color: black; font-size: 34px; text-align: center;"> Le drone. </h2>
+	        <h2 style="color: white; font-size: 34px; text-align: center;"> Le drone. </h2>
 					<!-- <input type="checkbox" id="bar-2"> -->
 					<div class="flexy-column">
 						<div class="progress-factor flexy-item">
@@ -65,10 +93,10 @@
 						</div>
 					</div>
 	      </article>
-
+<!--
 	      <div class="content__back-to-top">
 	        <a href="#" class="content__back-to-top__link" style="color: black;">Back To Top</a>
-	      </div>
+	      </div> -->
 	    </section>
 
 
@@ -85,7 +113,7 @@
 
 			<div class="footer-left">
 
-				<p class="footer-links">
+				<p class="footer-links" style="text-align: center;">
 					<a href="index.html">Accueil</a>
 					·
 					<a href="about.html">À propos</a>
@@ -99,7 +127,7 @@
 					<a href="https://omarmhaimdat.typeform.com/to/WumX0N">Adhérer</a>
 				</p>
 
-				<p>Ex-Machina &copy; 2017</p>
+				<p style="text-align: center;">Ex-Machina &copy; 2017</p>
 			</div>
 
 		</footer>
@@ -107,5 +135,7 @@
 		<script src="js/EasePack.min.js"></script>
 		<script src="js/rAF.js"></script>
 		<script src="js/demo-1.js"></script>
+		<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+		<script src="js/index.js"></script>
 	</body>
 </html>
