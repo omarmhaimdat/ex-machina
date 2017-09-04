@@ -98,10 +98,15 @@ a:hover, a:focus {
 @media (max-width: 640px) {
   .nav {
     width: 70px;
+		font-size: 12px;
   }
   .nav__list {
     height: 90vh;
+		font-size: 12px;
   }
+	.nav__link{
+		font-size: 16px;
+	}
 }
 
 .burger {
@@ -679,6 +684,11 @@ footer{
 @media only screen and (max-width: 529px) {
   .headerabout {
     min-height: 400px;
+		background: transparent url(../img/logo.png) no-repeat 0 0;
+		background-size: cover;
+		width: auto;
+		width: 400px;
+		height: 400px;
   }
 }
 .header__inner {
