@@ -699,7 +699,6 @@ footer{
 		background: transparent url(../img/logo.png) no-repeat 0 0;
 		background-size: cover;
 		max-width: 375px;
-		width: auto;
 		height: 300px;
 		text-align: center;
   }
