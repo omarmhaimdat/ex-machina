@@ -691,6 +691,7 @@ footer{
   position: relative;
   background: transparent url(../img/about.png) no-repeat 0 0;
   background-size: cover;
+	text-align: center;
 	color: black;
 }
 @media only screen and (max-width: 567px) {
@@ -703,7 +704,7 @@ footer{
 		text-align: center;
   }
 }
-@media only screen and (min-width: 667px) and (max-width: 1200px) {
+@media only screen and (min-width: 567px) and (max-width: 1200px) {
   .headerabout {
     /*min-height: 400px;*/
 		background: transparent url(../img/about-1200.png) no-repeat 0 0;
