@@ -3982,14 +3982,14 @@ figure.effect-julia:hover p {
 	padding-top: 100px;
 	padding-bottom: 800px;
 }
-@media (max-width: 640px) {
+@media only screen and (max-width: 567px) {
   .grid-projet {
 		padding-top: 10px;
 		padding-bottom: 3550px;
 		width: 80%;
   }
 }
-@media (max-width: 1200px) {
+@media only screen and (min-width: 567px) and (max-width: 1200px){
 	.grid-projet {
 		padding-top: 10px;
 		padding-bottom: 800px;
