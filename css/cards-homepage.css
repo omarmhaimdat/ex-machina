@@ -3989,11 +3989,11 @@ figure.effect-julia:hover p {
 		width: 80%;
   }
 }
-@media only screen and (min-width: 567px) and (max-width: 1200px){
+@media only screen and (max-width: 1200px){
 	.grid-projet {
 		padding-top: 10px;
-		padding-bottom: 2800px;
-		width: 80%;
+		padding-bottom: 1500px;
+		width: 50%;
 	}
 }
 
