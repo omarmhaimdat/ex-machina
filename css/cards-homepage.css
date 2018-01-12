@@ -316,13 +316,13 @@ a:hover, a:focus {
 .grid {
 	margin: 100px 30px 150px 80px;
 	max-width: 1800px;
-	width: 90%;
+	width: 100%;
 }
 
 .grid a {
 	float: left;
-	max-width: 450px;
-	width: 20%;
+	max-width: 350px;
+	width: 15%;
 	color: #333;
 }
 
