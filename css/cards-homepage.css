@@ -371,7 +371,7 @@ a:hover, a:focus {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-weight: 300;
-	font-size: 130%;
+	font-size: 100%;
 	-webkit-transition: -webkit-transform 0.3s;
 	transition: transform 0.3s;
 }
