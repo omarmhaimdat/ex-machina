@@ -314,16 +314,16 @@ a:hover, a:focus {
 
 /* Common style */
 .grid {
-	margin: 100px 30px 150px 80px;
+	margin: 30px -100px 150px 0px;
 	max-width: 1800px;
   width: 100%;
-  padding: 12px;
+  padding: 50px;
 }
 
 .grid a {
-	float: left;
+	float: left;  
 	max-width: 350px;
-	width: 15%;
+	width: 16.5%;
 	color: #333;
 }
 
@@ -338,6 +338,12 @@ a:hover, a:focus {
 }
 .grid a:nth-child(4) {
 	/*margin:  0 0px 0;*/
+}
+.grid a:nth-child(5) {
+  /*margin:  0 0px 0;*/
+}
+.grid a:nth-child(6) {
+  /*margin:  0 0px 0;*/
 }
 
 .grid figure {
